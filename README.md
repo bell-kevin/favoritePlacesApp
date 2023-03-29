@@ -1,6 +1,6 @@
 # Favorite Places App.
 
-Use native phone features like camera, GPS, maps, & device memory to record and digitally remember your favorite places!
+Use native phone features like camera, GPS, maps, & device memory to record and digitally remember your favorite places.
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/1.PNG)
 

@@ -1,5 +1,7 @@
 # Favorite Places App.
 
+Use native phone features like camera, GPS, maps, & device memory to create cool apps.
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:

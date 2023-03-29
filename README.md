@@ -1,5 +1,7 @@
 # Favorite Places App.
 
+Use native phone features like camera, GPS, maps, & device memory to create cool apps.
+
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
 ## How to:

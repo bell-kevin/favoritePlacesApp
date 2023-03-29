@@ -29,28 +29,29 @@ function ImagePicker({ onTakeImage }) {
 
   async function takeImageHandler() {
     const hasPermission = await verifyPermissions();
-
+  
     if (!hasPermission) {
       return;
     }
-
+  
     const image = await launchCameraAsync({
       allowsEditing: true,
       aspect: [16, 9],
       quality: 0.5,
       mediaTypes: "Images",
     });
-
-    if (!image.cancelled) {
+  
+    if (!image.canceled) {
       setPickedImage(image);
       onTakeImage(image);
     }
   }
+  
 
   let imagePreview = <Text>No image taken yet.</Text>;
 
   if (pickedImage) {
-    imagePreview = <Image style={styles.image} source={{ uri: pickedImage.uri }} />;
+    imagePreview = <Image style={styles.image} source={{ uri: pickedImage.assets[0].uri }} />;
   }
 
   return (

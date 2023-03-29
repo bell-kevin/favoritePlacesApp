@@ -38,13 +38,19 @@ function LocationPicker({ onPickLocation }) {
   useEffect(() => {
     async function handleLocation() {
       if (pickedLocation) {
-        const address = await getAddress(
-          pickedLocation.lat,
-          pickedLocation.lng
-        );
-        onPickLocation({ ...pickedLocation, address: address });
+        try {
+          const address = await getAddress(
+            pickedLocation.lat,
+            pickedLocation.lng
+          );
+          onPickLocation({ ...pickedLocation, address: address });
+        } catch (error) {
+          console.log('Failed to get address', error);
+          onPickLocation({ ...pickedLocation, address: '' });
+        }
       }
     }
+    
 
     handleLocation();
   }, [pickedLocation, onPickLocation]);
@@ -76,11 +82,15 @@ function LocationPicker({ onPickLocation }) {
       return;
     }
 
-    const location = await getCurrentPositionAsync();
-    setPickedLocation({
-      lat: location.coords.latitude,
-      lng: location.coords.longitude,
-    });
+    try {
+      const location = await getCurrentPositionAsync();
+      setPickedLocation({
+        lat: location.coords.latitude,
+        lng: location.coords.longitude,
+      });
+    } catch (error) {
+      console.log('Failed to get location', error);
+    }
   }
 
   function pickOnMapHandler() {

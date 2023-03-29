@@ -4,6 +4,10 @@ Use native phone features like camera, GPS, maps, & device memory to record your
 
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
+![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/1.PNG)
+
+![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/2.PNG)
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:

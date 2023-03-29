@@ -1,6 +1,6 @@
 # Favorite Places App.
 
-Use native phone features like camera, GPS, maps, & device memory to record your favorite places!
+Use native phone features like camera, GPS, maps, & device memory to record and digitally remember your favorite places!
 
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 

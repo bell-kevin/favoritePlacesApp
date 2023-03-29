@@ -2,8 +2,6 @@
 
 Use native phone features like camera, GPS, maps, & device memory to record and digitally remember your favorite places!
 
-https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
-
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/1.PNG)
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/2.PNG)
@@ -25,6 +23,8 @@ https://github.com/academind/react-native-practical-guide-code/tree/12-native-fe
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/10.PNG)
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/11.PNG)
+
+https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
 ## How to:
 

@@ -28,6 +28,8 @@ https://github.com/academind/react-native-practical-guide-code/tree/12-native-fe
 
 https://docs.expo.dev/versions/v48.0.0/sdk/imagepicker/
 
+https://docs.expo.dev/versions/latest/sdk/location/
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:

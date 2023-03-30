@@ -42,6 +42,8 @@ https://docs.expo.dev/versions/latest/sdk/map-view/
 
 https://github.com/react-native-maps/react-native-maps
 
+https://developers.google.com/maps/documentation/geocoding/overview
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:

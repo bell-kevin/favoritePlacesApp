@@ -1,3 +1,4 @@
+// The API key is a fake
 const GOOGLE_API_KEY = 'AIzaSyD2mP_sDlloOcwv6OLmYtATOJIcnDhcZcg';
 
 export function getMapPreview(lat, lng) {

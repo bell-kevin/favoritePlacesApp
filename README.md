@@ -26,6 +26,8 @@ Use native phone features like camera, GPS, maps, & device memory to record and 
 
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
+https://docs.expo.dev/versions/latest/sdk/camera/
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:

@@ -26,7 +26,7 @@ Use native phone features like camera, GPS, maps, & device memory to record and 
 
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
-https://docs.expo.dev/versions/latest/sdk/camera/
+https://docs.expo.dev/versions/v48.0.0/sdk/imagepicker/
 
 ## How to:
 

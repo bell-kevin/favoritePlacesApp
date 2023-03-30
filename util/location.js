@@ -1,5 +1,5 @@
-// The API key is a fake one, you need to get your own from Google
-const GOOGLE_API_KEY = 'AIzaSyD2mP_sDlloOcwv6OLmYtATOJIcnDhcZcg';
+// The API key is mine, you need to get your own from Google
+const GOOGLE_API_KEY = 'AIzaSyBCc6S0w6_zfHR1DG-xM0QitPs3bqSUE2o';
 
 export function getMapPreview(lat, lng) {
   const imagePreviewUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=14&size=400x200&maptype=roadmap&markers=color:red%7Clabel:S%7C${lat},${lng}&key=${GOOGLE_API_KEY}`;

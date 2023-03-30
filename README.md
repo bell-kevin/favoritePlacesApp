@@ -24,6 +24,8 @@ Use native phone features like camera, GPS, maps, & device memory to record and 
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/11.PNG)
 
+![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/lagoon.jpg)
+
 https://github.com/academind/react-native-practical-guide-code/tree/12-native-features/code/20-finished
 
 https://docs.expo.dev/versions/v48.0.0/sdk/imagepicker/

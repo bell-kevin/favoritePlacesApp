@@ -16,14 +16,6 @@ Use native phone features like camera, GPS, maps, & device memory to record and 
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/7.PNG)
 
-![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/8.PNG)
-
-![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/9.PNG)
-
-![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/10.PNG)
-
-![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/11.PNG)
-
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/12.PNG)
 
 ![p](https://github.com/bell-kevin/favoritePlacesApp/blob/main/screenshots/13.PNG)

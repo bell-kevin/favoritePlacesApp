@@ -1,18 +1,25 @@
 import { Alert, Image, StyleSheet, Text, View } from 'react-native';
-import { launchCameraAsync, useCameraPermissions, PermissionStatus } from 'expo-image-picker';
+import {
+  launchCameraAsync,
+  useCameraPermissions,
+  PermissionStatus,
+} from 'expo-image-picker';
 import { useState } from 'react';
+import * as ImagePicker from 'expo-image-picker';
 
 import { Colors } from '../../constants/colors';
 import OutlinedButton from '../UI/OutlinedButton';
 
-function ImagePicker({ onTakeImage }) {
+function ImagePickerComponent({ onTakeImage }) {
   const [pickedImage, setPickedImage] = useState();
 
-  const [cameraPermissionInformation, requestPermission] = useCameraPermissions();
+  const [cameraPermissionInformation, requestPermission] =
+    useCameraPermissions();
 
   async function verifyPermissions() {
     if (cameraPermissionInformation.status === PermissionStatus.UNDETERMINED) {
       const permissionResponse = await requestPermission();
+
       return permissionResponse.granted;
     }
 
@@ -29,29 +36,25 @@ function ImagePicker({ onTakeImage }) {
 
   async function takeImageHandler() {
     const hasPermission = await verifyPermissions();
-  
+
     if (!hasPermission) {
       return;
     }
-  
+
     const image = await launchCameraAsync({
       allowsEditing: true,
       aspect: [16, 9],
       quality: 0.5,
-      mediaTypes: "Images",
     });
-  
-    if (!image.canceled) {
-      setPickedImage(image);
-      onTakeImage(image);
-    }
+
+    setPickedImage(image.assets[0].uri);
+    onTakeImage(image.assets[0].uri);
   }
-  
 
   let imagePreview = <Text>No image taken yet.</Text>;
 
   if (pickedImage) {
-    imagePreview = <Image style={styles.image} source={{ uri: pickedImage.assets[0].uri }} />;
+    imagePreview = <Image style={styles.image} source={{ uri: pickedImage }} />;
   }
 
   return (
@@ -64,7 +67,7 @@ function ImagePicker({ onTakeImage }) {
   );
 }
 
-export default ImagePicker;
+export default ImagePickerComponent;
 
 const styles = StyleSheet.create({
   imagePreview: {

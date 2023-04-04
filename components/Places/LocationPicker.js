@@ -50,8 +50,7 @@ function LocationPicker({ onPickLocation }) {
         }
       }
     }
-    
-
+  
     handleLocation();
   }, [pickedLocation, onPickLocation]);
 
